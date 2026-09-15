@@ -59,8 +59,6 @@ The Neural Network successfully learns the patterns of handwritten digits and ca
 ## 👩‍💻 Author
 
 **Sayali Hande**
-First Year Engineering – Artificial Intelligence & Data Science
-
 ---
 
 ⭐ If you find this project useful, consider giving the repository a star!
