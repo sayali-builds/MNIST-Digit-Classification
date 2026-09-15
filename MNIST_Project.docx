@@ -1,0 +1,53 @@
+MNIST Digit Classification using Neural Networks
+
+Project : To build and train a simple Neural Network to classify handwritten digits (0–9) using the MNIST dataset.
+
+Software Requirements:
+- Python 3.x
+- Jupyter Notebook / Google Colab
+- TensorFlow
+- NumPy
+- Matplotlib
+
+Step 1: Import Required Libraries
+These libraries help in numerical computation, visualization, and neural network creation.
+
+Step 2: Load the MNIST Dataset
+The MNIST dataset contains 60,000 training images and 10,000 test images of handwritten digits.
+
+Step 3: Understand Dataset Shape
+Each image is of size 28x28 pixels and labels range from 0 to 9.
+
+Step 4: Visualize Sample Image
+Display a digit image to understand the data visually.
+
+Step 5: Normalize the Dataset
+Pixel values are scaled from 0–255 to 0–1 to improve training efficiency.
+
+Step 6: Build Neural Network Model
+The model consists of:
+- Flatten layer to convert image to 1D
+- Dense hidden layer with ReLU activation
+- Output layer with Softmax activation
+
+Step 7: Compile the Model
+Adam optimizer and sparse categorical crossentropy loss are used.
+
+Step 8: Train the Model
+The model is trained for 10 epochs using training data and validated with test data.
+
+Step 9: Evaluate the Model
+Test accuracy is calculated to measure model performance.
+
+Step 10: Make Predictions
+The trained model predicts digit labels for test images.
+
+Step 11: Predict a Single Image
+Argmax is used to identify the digit with the highest probability.
+
+Step 12: Display Prediction Result
+The predicted digit is displayed along with the test image.
+
+Conclusion:
+This experiment demonstrates the basic working of a neural network for image classification.
+
